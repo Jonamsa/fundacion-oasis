@@ -1,0 +1,683 @@
+*{
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    margin: 0;
+}
+/* inicio parte menu de opciones */
+header{
+    width: 100%;
+    height: 941px;
+}
+.fondo-manos{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+.fondo-manos img{
+    width: 1440px;
+    height: 940px;
+    max-width: 1440px;
+    background-color: #D8D8D8;
+    background: linear-gradient(179.03deg, rgba(255,255,255,0) 0%, #FFFFFF 100%), linear-gradient(0deg, rgba(255,255,255,0.5) 0%, rgba(0,0,0,0.5) 100%);
+}
+.contenedor-menu{
+    width: 1440px;
+    height: 941px;
+    margin: auto;
+}
+.contenedor-menu .menu-enlaces{
+    width: 100%;
+    height: 5%;
+    max-width: 1440px;
+    position: absolute;
+    font-family: "urbanist";
+    font-weight: normal;
+    font-style: normal;
+    top: auto;
+
+}
+.contenedor-menu .menu-enlaces a{
+    color: #fff;
+    text-decoration: none;
+}
+/* incia menu */
+
+.logo{
+    position: absolute;
+    left: 119px;
+    top: 8px;
+}
+
+.inicio{
+    position: absolute;
+    left: 240px;
+    top: 18px;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.sobre-nosotros{
+    position: absolute;
+    margin-left: 309px;
+    top: 18px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.cambiando-vidas{
+    position: absolute;
+    left: 421px;
+    top: 18px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.programas{
+    position: absolute;
+    left: 548px;
+    top: 18px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.redes-colaboracion{
+    position: absolute;
+    left: 637px;
+    top: 18px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.galeria{
+    position: absolute;
+    left: 790px;
+    top: 18px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.reconocimientos{
+    position: absolute;
+    left: 861px;
+    top: 18px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.prensa{
+    position: absolute;
+    left: 982px;
+    top: 18px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+#manitas-se-parte-del-cambio{
+    background-color: #fdb918;
+    width: 144px;
+    height: 23px;
+    position: absolute;
+    left: 1035px;
+    top: 14px;
+    border-radius: 12px;
+}
+.manitas{
+    position: absolute;
+    height: 17px;
+    width: 17px;
+    top: 4px;
+    left: 10px;
+    background-color: #fff;
+    opacity: 30%;
+    border-radius: 50%;
+}
+.manitas2{
+    position: absolute;
+    height: 17px;
+    width: 17px;
+    top: 4px;
+    left: 10px;
+}
+
+.se-parte-del-cambio{
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 30px;
+}
+
+#carta-contacto{
+    background-color: #fff;
+    width: 90px;
+    height: 23px;
+    position: absolute;
+    left: 1190px;
+    top: 14px;
+    border-radius: 12px;
+    opacity: 10%;
+}
+.contacto{
+    position: absolute;
+    left: 1201px;
+    top: 18px;
+    font-size: 12px;
+    line-height: 14px;
+
+;
+}
+
+.carta{
+    position: absolute;
+    left: 1253px;
+    top: 16px;
+    color: #fff;
+}
+
+.fondo-es{
+    background-color: #fff;
+    width: 50px;
+    height: 23px;
+    position: absolute;
+    left: 1284px;
+    top: 14px;
+    border-radius: 12px;
+    opacity: 10%;
+}
+.es{
+    position: absolute;
+    left: 1297px;
+    top: 19px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+}
+
+.flecha{
+    position: absolute;
+    left: 1312px;
+    top: 17px;
+    color: #fff;
+}
+/* fin de parte de menu de opciones */
+
+.contenedor-menu .contenedor-texto{
+    width: 1440;
+    height: 50%;
+    /* background-color: blue; */
+    position: absolute;
+    top: 600px;
+}
+.contenedor-texto .textos-header{
+    width: 1440px;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.textos-header .h1-header{
+    font-size: 30px;
+    line-height: 36px;
+    font-family: 'Urbanist';
+    font-weight: normal;
+    font-style: normal;
+    /* background-color: pink; */
+    margin: 0;
+    
+}
+.textos-header .p1-header{
+    font-size: 56px;
+    line-height: 61px;
+    font-family: 'Beauty';
+    font-weight: normal;
+    font-style: normal;
+    /* background-color: pink; */
+    margin: 0;
+}
+.textos-header .p2-header{
+    text-align: left;
+    font-size: 14px
+    line-height: 17px;
+    font-family: 'Urbanist';
+    font-weight: normal;
+    font-style: normal;
+    /* background-color: pink; */
+    margin: 0;
+}
+
+/* seccion del main cuadros de colores */
+
+.secciones-main{
+    width: 100%;
+    height: 1057px;
+}
+
+.limites-del-main{
+    width: 1440px;
+    height: 1057px;
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.main-seccion1{
+    width: 1440px;
+    height: 505px;
+    position: absolute;
+}
+.caja-cultura-comunidad{
+    width: 50%;
+    height: 505px;
+    position: absolute;
+}
+.cultura{
+    width: 100%;
+    height: 280px;
+    background-color: #fdb918;
+    position: absolute;
+}
+
+.cultura-caja{
+    width: 390px;
+    height: 149px;
+    position: absolute;
+    margin-left: 199px;
+    margin-right: 107;
+    margin-top: 65px;
+    margin-bottom: 60px;
+
+}
+.cultura-caja h2{
+    margin-top: 0px;
+    position: absolute;
+    color: #fff;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: left;
+    font-family: 'Urbanist';
+    font-weight: normal;
+    font-style: normal;
+
+}
+.cultura-caja p{
+    position: absolute;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    font-family: 'Urbanist';
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+
+}
+
+.comunidad{
+    width: 100%;
+    height: 225px;
+    background-color: #42c5c5;
+    position: absolute;
+    margin-top: 280px;
+}
+.comunidad-caja{
+
+    width: 400px;
+    height: 115px;
+    position: absolute;
+    margin-left: 199px;
+    margin-right: 107px;
+    margin-top: 54px;
+    margin-bottom: 50px;
+}
+.comunidad-caja h2{
+    margin-top: 0px;
+    position: absolute;
+    color: #fff;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: left;
+    font-family: 'Urbanist';
+    font-weight: normal;
+    font-style: normal;
+}
+.comunidad-caja p{
+    position: absolute;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    font-family: 'Urbanist';
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+}
+
+.discapacidad{
+    width: 50%;
+    height: 505px;
+    background-color: #555289;
+    position: absolute;
+    left: 50%;
+}
+.discapacidad-caja{
+    width: 390px;
+    height: 217px;
+    position: absolute;
+    margin-left: 124px;
+    margin-right: 198px;
+    margin-top: 145px;
+    margin-bottom: 137px;
+}
+.discapacidad-caja h2{
+    margin-top: 0px;
+    position: absolute;
+    color: #fff;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: left;
+    font-family: 'Urbanist';
+    font-weight: normal;
+    font-style: normal;
+}
+.discapacidad-caja p{
+    position: absolute;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    font-family: 'Urbanist';
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+}
+
+.main-seccion2{
+    width: 1440px;
+    height: 226px;
+    position: absolute;
+    margin-top: 505px;
+    background-color: #d03b81;
+}
+.educacion-caja{
+    width: 1018px;
+    height: 98px;
+    position: absolute;
+    margin-left: 199px;
+    margin-right: 198px;
+    margin-top: 63px;
+    margin-bottom: 59px;
+
+}
+.educacion-caja h2{
+    margin-top: 0px;
+    position: absolute;
+    color: #fff;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: left;
+    font-family: 'Urbanist';
+    font-weight: normal;
+    font-style: normal;
+}
+.educacion-caja p{
+    position: absolute;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    font-family: 'Urbanist';
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+}
+.main-seccion3{
+    width: 1440px;
+    height: 326px;
+    position: absolute;
+    margin-top: 731px;
+}
+
+.salud{
+    width: 50%;
+    height: 326px;
+    background-color: #e44e55;
+    position: absolute;
+}
+.salud-caja{
+    width: 406px;
+    height: 183px;
+    position: absolute;
+    margin-left: 199px;
+    margin-right: 116px;
+    margin-top: 71px;
+    margin-bottom: 66px;
+}
+.salud-caja h2{
+    margin-top: 0px;
+    position: absolute;
+    color: #fff;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: left;
+    font-family: 'Urbanist';
+    font-weight: normal;
+    font-style: normal;
+}
+.salud-caja p{
+    position: absolute;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    font-family: 'Urbanist';
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+}
+
+.huella-ecologica{
+    width: 50%;
+    height: 326px;
+    background-color: #80be41;
+    position: absolute;
+    left: 50%;
+}
+.huella-ecologica-caja{
+    width: 421px;
+    height: 149px;
+    position: absolute;
+    margin-left: 116px;
+    margin-right: 183px;
+    margin-top: 87px;
+    margin-bottom: 83px;
+}
+.huella-ecologica-caja h2{
+    margin-top: 0px;
+    position: absolute;
+    color: #fff;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: left;
+    font-family: 'Urbanist';
+    font-weight: normal;
+    font-style: normal;
+}
+.huella-ecologica-caja p{
+    position: absolute;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    font-family: 'Urbanist';
+    font-weight: normal;
+    font-style: normal;
+    text-align: left;
+}
+
+/* Inicia parte del footer */
+.linea-colores{
+    width: 1440px;
+    height: 87px;
+    display: block;
+    margin: auto;
+    max-width: 1440px;
+}
+.color1{
+    width: 240px;
+    height: 5px;
+    background-color: #fdb918;
+    position: absolute;
+    margin-top: 82px;
+    margin-left: 0;
+}
+.color2{
+    width: 240px;
+    height: 5px;
+    background-color: #42c5c5;
+    position: absolute;
+    margin-top: 82px;
+    margin-left: 240px;
+}
+.color3{
+    width: 240px;
+    height: 5px;
+    background-color: #555289;
+    position: absolute;
+    margin-top: 82px;
+    margin-left: 480px;
+}
+.color4{
+    width: 240px;
+    height: 5px;
+    background-color: #e8298c;
+    position: absolute;
+    margin-top: 82px;
+    margin-left: 720px;
+}
+.color5{
+    width: 240px;
+    height: 5px;
+    background-color: #e51c24;
+    position: absolute;
+    margin-top: 82px;
+    margin-left: 960px;
+}
+.color6{
+    width: 240px;
+    height: 5px;
+    background-color: #7dbb3e;
+    position: absolute;
+    margin-top: 82px;
+    margin-left: 1200px;
+}
+.newsletter{
+    width: 100%;
+    height: 94px;
+}
+.newsletter-caja{
+    width: 1440px;
+    height: 94px;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+.newsletter-caja h1{
+    position: absolute;
+    left: 541px;
+    right: 540px;
+    margin-top: 34px;
+    color: #f2b244;
+    font-family: 'urbanist';
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 800;
+}
+.enviar{
+    width: 1440px;
+    height: 58px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 1440px;
+}
+
+.caja-enviar{
+    width: 495px;
+    height: 34px;
+    margin-top: 4px;
+    display: block;
+    margin-left: 523px;
+    position: absolute;
+
+}
+.caja-enviar .ingresar-email{
+    width: 363px;
+    height: 34px;
+    background-color: rgba(68,68,68,0.1);
+    border-radius: 17px;
+    color: #444444;
+    font-family: 'Urbanist';
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 14px;
+
+}
+
+
+.caja-enviar .enviar-email{
+    width: 95px;
+    height: 34px;
+    border-radius: 18px;
+    background-color: #FDB918;
+    color: #FFFFFF;
+    font-family: 'Urbanist';
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 17px;
+    text-align: center;
+    position: relative;
+    right: 100px;
+}
+.footer{
+    width: 100%;
+    height: 138px;
+}
+.footer-caja{
+    width: 1440px;
+    height: 138px;
+    display: block;
+    margin: auto;
+}
+.footer-caja-leyenda{
+    width: 493px;
+    height: 12px;
+    position: absolute;
+
+}
+.footer-leyendas{
+    width: 493px;
+    height: 12px;
+    margin-left: 484.5px;
+
+}
+.lista-footer {
+    display: inline-block;
+    color: #434343;
+    font-family: 'Urbanist';
+    font-size: 10px;
+    line-height: 12px;
+}
+.lista-footer a{
+    text-decoration: none;
+}
