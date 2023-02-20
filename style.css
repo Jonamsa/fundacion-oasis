@@ -592,7 +592,7 @@ header{
     margin: auto;
     text-align: center;
 }
-.newsletter-caja h1{
+.newsletter-caja p{
     position: absolute;
     left: 541px;
     right: 540px;
@@ -617,8 +617,15 @@ header{
     height: 34px;
     margin-top: 4px;
     display: block;
-    margin-left: 523px;
+    margin-left: 510px;
     position: absolute;
+
+}
+.icono-carta-caja-enviar{
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 11px;
+    color: #444444;
 
 }
 .caja-enviar .ingresar-email{
@@ -631,12 +638,12 @@ header{
     font-size: 12px;
     letter-spacing: 0;
     line-height: 14px;
+    margin-left: 30px;
 
 }
 
-
 .caja-enviar .enviar-email{
-    width: 95px;
+    width: 94px;
     height: 34px;
     border-radius: 18px;
     background-color: #FDB918;
@@ -647,7 +654,8 @@ header{
     line-height: 17px;
     text-align: center;
     position: relative;
-    right: 100px;
+    right: 98px;
+    margin-top: 3px;
 }
 .footer{
     width: 100%;
@@ -669,6 +677,7 @@ header{
     width: 493px;
     height: 12px;
     margin-left: 484.5px;
+    text-size-adjust: 100%;
 
 }
 .lista-footer {
@@ -680,4 +689,5 @@ header{
 }
 .lista-footer a{
     text-decoration: none;
+    color: #434343;
 }
