@@ -617,14 +617,14 @@ header{
     height: 34px;
     margin-top: 4px;
     display: block;
-    margin-left: 510px;
+    margin-left: 465px;
     position: absolute;
 
 }
 .icono-carta-caja-enviar{
     position: absolute;
-    margin-left: 50px;
-    margin-top: 11px;
+    margin-left: 35px;
+    margin-top: 7px;
     color: #444444;
 
 }
@@ -638,7 +638,7 @@ header{
     font-size: 12px;
     letter-spacing: 0;
     line-height: 14px;
-    margin-left: 30px;
+    margin-left: 15px;
 
 }
 
@@ -653,9 +653,9 @@ header{
     letter-spacing: 0;
     line-height: 17px;
     text-align: center;
-    position: relative;
-    right: 98px;
-    margin-top: 3px;
+    position: absolute;
+    right: 58px;
+    margin-top: 0px;
 }
 .footer{
     width: 100%;
