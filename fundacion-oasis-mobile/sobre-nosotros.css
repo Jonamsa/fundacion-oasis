@@ -1,0 +1,885 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Urbanist', sans-serif;
+    background: #fff;
+}
+
+
+.main-container{
+    width: 100%;
+    min-width: 320px;
+    max-width: 428px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.container-first-section{
+    width: 100%;
+    height: 100%;
+    background-image: url(./Assets/assets/bg-internas-movil.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-color: rgba(216,216,216,1);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%), linear-gradient(0deg, rgba(255,255,255,0.5) 0%, rgba(0,0,0,0.5) 100%); */
+}
+
+/* menu de opciones */
+.options-menu{
+    width: 100%;
+    height: 56px;
+    background: linear-gradient(0deg, rgba(121,121,121,0) 0%, #444444 100%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.options-menu .menu--list{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    margin: auto 24px;
+    color: white;
+}
+
+.menu--second{
+    width: 220px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.options-menu .menu--text{
+    width: 144px;
+    height: 23px;
+    display: flex;
+    flex-direction: row;
+    background-color: #fdb918;
+    border-radius: 12px;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 6px;
+    
+}
+
+.options-menu .menu--text a{
+    margin-top: 0;
+    text-decoration: none;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    font-weight: 500;
+    color: #fff;
+    opacity: 80%;
+}
+
+.options-menu .menu--text img{
+    width: 17px;
+    height: 17px;
+    background-color: #fff;
+    opacity: 50%;
+    border-radius: 50px;
+}
+
+.options-menu .menu--mail{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    background-color: rgba(255,255,255,0.26);
+    border-radius: 50%;
+}
+
+.options-menu .menu--mail a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.options-menu .menu--lenguage{
+    width: 25px;
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    background-color: rgba(255,255,255,0.26);
+    border-radius: 50%;
+}
+
+.options-menu .menu--lenguage a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3rem;
+}
+/* Termina menu de opciones */
+/* Texto de la primera seccion */
+.tittle-first-section{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 7px;
+    margin-bottom: 26px;
+}
+.tittle-first-section h1{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    font-weight: 600;
+    color: rgba(85,82,137,1);
+    letter-spacing: 0;
+}
+
+/* iconos */
+
+.icons-container{
+    width: 80%;
+    height: 61px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.icons-circles{
+    width: 37px;
+    height: 61px;
+}
+
+.icon-background{
+    width: 37px;
+    height: 37px;
+    background-color: rgba(68,68,68,0.17);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-balance{
+    width: 23px;
+    height: 23px;
+    background-image: url(./Assets/assets/svg/filosofia.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.icon-plant{
+    width: 21px;
+    height: 20px;
+    background-image: url(./Assets/assets/svg/origenes.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.icon-baby-feet{
+    width: 25px;
+    height: 25px;
+    background-image: url(./Assets/assets/svg/pasos.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.icon-growt{
+    width: 20px;
+    height: 27px;
+    background-image: url(./Assets/assets/svg/evolucion.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.icon-handshake{
+    width: 24px;
+    height: 23px;
+    background-image: url(./Assets/assets/svg/compromiso-apoyo.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.icons-container .icons-circles p{
+    width: 100%;
+    font-size: 'urbanist';
+    font-size: 1rem;
+    line-height: 1.2rem;
+    text-align: center;
+    color: rgba(68,68,68,1);
+    margin-top: 4px;
+}
+
+/* texto h2 y p */
+.text-first-section{
+    width: 100%;
+    height: 52px;
+    margin-top: 27px;
+}
+
+.text-fundacion{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.icon-text{
+    width: 255px;
+    height: 24px;
+    margin: 0 auto;
+}
+
+.text-first-section .text-fundacion .icon-text span{
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    background-image: url(./Assets/assets/svg/filosofia2.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text-first-section .text-fundacion .icon-text h2{
+    width: 236px;
+    height: 24px;
+    display: inline-block;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-weight: bold;
+}
+
+.text-first-section .text-fundacion p{
+    width: 183px;
+    height: 28px;
+    font-size: 2.5rem;
+    line-height: 2.7rem;
+    font-family: 'beauty';
+    color: rgba(68,68,68,1);
+    margin: 0 auto;
+}
+ /* Inicio de la segunda seccion */
+
+/* Contenedor de la mision y vision */
+.mision-vision-container{
+    width: 100%;
+    height: 351px;
+    margin-top: 23px;
+}
+
+.mision-vision-container-text{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+    /* Diseño flotante mision */
+.desing-mision{
+    width: 120px;
+    height: 63px;
+    border-top: 1px solid #fdb918;
+    border-left: 1px solid #fdb918;
+    border-right: 1px solid #fdb918;
+    position: absolute;
+    top: -10px;
+    left: 60px;
+    z-index: 1;
+}
+.container-logo-mision{
+    width: 31px;
+    height: 31px;
+    background-color: rgba(253,185,24,1);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: -15px;
+    top: -15px;
+}
+.logo-mision{
+    width: 19px;
+    height: 19px;
+    background-image: url(./Assets/assets/svg/mision.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+/* Fin de logos flotantes */
+
+/* contenedor de la mision */
+.mision-container{
+    width: 100%;
+    height: 126px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+.mision-tittle{
+    width: 104px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mision-tittle p{
+    width: 104px;
+    height: 35px;
+    font-size: 4.5rem;
+    line-height: 4.9rem;
+    font-family: 'Beauty';
+    color: rgba(253,185,24,1);
+    text-align: center;
+}
+
+.mision-description{
+    width: 230px;
+    height: 130px;
+    background: #fff;
+    z-index: 2;
+}
+
+.mision-description p{
+    width: 230px;
+    height: 126px;
+    margin: 0 auto;
+    margin-top: 5px;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    text-align: center;
+    color: rgba(76,76,76,1);
+}
+
+/* Contenedor de la vision */
+
+.vision-container{
+    width: 100%;
+    height: 126px;
+    margin: 0 auto;
+    margin-top: 21px;
+    display: flex;
+    justify-content: space-around;
+}
+.vision-description{
+    width: 240px;
+    height: 135px;
+    background: #fff;
+    z-index: 2;
+}
+
+.mision-vision-container .mision-vision-container-text .vision-container .vision-description p{
+    width: 238px;
+    height: 126px;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: rgba(76,76,76,1);
+    text-align: center;
+}
+
+.vision{
+    width: 86px;
+    height: 126px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vision p{
+    width: 86px;
+    height: 42px;
+    font-size: 4.5rem;
+    line-height: 4.9rem;
+    font-family: 'Beauty';
+    color: rgba(125,187,62,1);
+}
+
+/* Diseño flotande de la mision */
+.desing-vision{
+    width: 120px;
+    height: 79px;
+    border-left: 1px solid rgba(125,187,62,1);
+    border-right: 1px solid rgba(125,187,62,1);
+    border-bottom: 1px solid rgba(125,187,62,1);
+    position: relative;
+    left: 200px;
+    bottom: 50px;
+    z-index: 1;
+}
+.container-logo-vision{
+    width: 31px;
+    height: 31px;
+    background-color: rgba(125,187,62,1);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 103px;
+    top: 60px;
+}
+.logo-vision{
+    width: 19px;
+    height: 19px;
+    background-image: url(./Assets/assets/svg/vision.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Inicia tabla de objetivos */
+
+.objetivos-container{
+    width: 100%;
+    height: 387px;
+    margin: 0 auto;
+}
+
+.objetivos-list{
+    width: 80%;
+    height: 387px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: rgba(68,68,68,0.05);
+}
+
+.objetivos-list .objetivos-tittle{
+    width: 80px;
+    height: 22px;
+    display: inline-block;
+    text-align: center;
+    margin-left: calc(50% - 40px);
+    margin-top: 13px;
+    margin-bottom: 14px;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    color: rgba(68,68,68,1);
+    font-weight: bold;
+
+}
+
+.objetivos-list-text{
+    width: 90%;
+    height: 340px;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 21px 1fr;
+    grid-template-rows: 28px 28px 42px 28px 28px 56px 12px;
+    grid-row-gap: 15px;
+    grid-column-gap: 5px;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+}
+
+.numbers-background-objetivos{
+    width: 100%;
+    height: 21px;
+    background-color: rgba(232,41,140,0.1);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.objetivos-numbers{
+    width: 100%;
+    height: 18px;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    font-weight: bold;
+    color: rgba(232,41,140,1);
+}
+
+.objetivos{
+    width: 100%;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: rgba(76,76,76,1);
+}
+
+/* Fin de la tabla de objetivos */
+
+/* Inicio de la tabla de valores */
+
+.valores-container{
+    width: 100%;
+    height: 198px;
+}
+
+.valores-list{
+    width: 80%;
+    height: 198px;
+    margin: 0 auto;
+    margin-top: 12px;
+    border-radius: 10px;
+    background-color: rgba(68,68,68,0.05);
+}
+.valores-tittle{
+    width: 64px;
+    height: 22px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 17px;
+    margin-left: calc(50% - 20px);
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    font-weight: bold;
+    color: rgba(68,68,68,1);
+
+}
+
+.valores-list-text{
+    width: 100%;
+    height: 144px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 21px);
+    grid-row-gap: 10px;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+}
+.valor{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.valor p{
+    width: 60%;
+    height: 100%;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: rgba(68,68,68,1);
+    text-align: left;
+    margin-left: 5px;
+}
+
+.icon-valor{
+    width: 16px;
+    height: 17px;
+    background-image: url(./Assets/assets/svg/mano.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Fin de la tabla de valores */
+
+/* Inicio titulos de segunda seccion ORIGENES Y EVOLUCION */
+.text-second-section{
+    width: 100%;
+    height: 52px;
+    margin-top: 41px;
+}
+
+.text-origenes{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.icon-text-second{
+    width: 100%;
+    height: 24px;
+    margin: 0 auto;
+
+}
+.text-second-section .text-origenes .icon-text-second span{
+    width: 16px;
+    height: 15px;
+    display: inline-block;
+    background-image: url(./Assets/assets/svg/origenes-green.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 3px;
+}
+.text-second-section .text-origenes .icon-text-second h2{
+    width: 288px;
+    height: 30px;
+    display: inline-block;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-weight: bold;
+    text-align: left;
+}
+
+.text-second-section .text-origenes p{
+    width: 288px;
+    height: 40px;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-family: 'beauty';
+    color: rgba(68,68,68,1);
+    margin: 0 auto;
+    margin-top: 3px;
+}
+
+/* Mapa de cancun */
+
+.cancun-map{
+    width: 100%;
+    height: 171px;
+    margin-top: 12px;
+}
+
+.cancun-image{
+    width: 80%;
+    height: 171px;
+    margin: 0 auto;
+    background-image: url(./Assets/assets/origenes-evolucion.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    padding-bottom: 7px;
+    padding-left: 8px;
+}
+
+.cancun-text-background{
+    width: 138px;
+    height: 22px;
+    background-color: rgba(255,255,255,0.22);
+    border-radius: 6px;
+    border-bottom: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255,255,255,1);
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+
+/* seccion de contexto social */
+
+.social-context{
+    width: 100%;
+    height: 628px;
+    margin-top: 19px;
+}
+
+.social-context-cancun{
+    width: 80%;
+    height: 264px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.social-context-iniciative{
+    width: 80%;
+    height: 351px;
+    margin: 0 auto;
+    margin-top: 13px;
+    text-align: center;
+}
+
+.context-social-tittle{
+    width: 100%;
+    height: 22px;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    font-weight: bold;
+    color: rgba(253,185,24,1);
+}
+
+.context-social-p{
+    width: 100%;
+    height: 100%;
+    margin-top: 4px;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: rgba(76,76,76,1);
+}
+
+/* Section primeros pasos */
+
+.primeros-pasos-draw{
+    width: 100%;
+    height: 215px;
+    margin-top: 20px;
+}
+
+.draw-container{
+    width: 80%;
+    height: 180px;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(253,185,24,1);
+    border-radius: 10px;
+}
+
+.draw-tittle{
+    width: 100%;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    line-height: 2.4rem;
+    color: rgba(255,255,255,1);
+}
+
+.draw-tittle span{
+    width: 21px;
+    height: 21px;
+    background-image: url(./Assets/assets/svg/pasos.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+
+.draw-text{
+    width: 100%;
+    height: 124px;
+    margin: 0 auto;
+    margin-top: 8px;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    color: rgba(76,76,76,1)
+}
+
+.draw-row{
+    width: 0; 
+    height: 0;
+    margin: 0 auto;
+    border-top: 25px solid rgba(253,185,24,1);
+    border-left: 13px solid transparent;
+    border-right: 13px solid transparent; 
+}
+
+/* Resultado de becas */
+
+.becas{
+    width: 100%;
+    height: 92px;
+    margin-top: 20px;
+}
+
+.becas-container{
+    width: 70%;
+    height: 92px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.beca{
+    width: 56px;
+    height: 92px;
+}
+
+.background-becas{
+    width: 55px;
+    height: 55px;
+    background-color: rgba(68,68,68,0.17);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    line-height: 3.6rem;
+    font-weight: bold;
+    color: rgba(85,82,137,1);
+}
+
+.becas-text{
+    width: 100%;
+    margin-top: 5px;
+    font-size: 1.2rem;
+    line-height: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(85,82,137,1);
+}
+
+/* Apoyos */
+
+.apoyos-tittle{
+    width: 342px;
+    height: 63px;
+    margin: 0 auto;
+    margin-top: 23px;
+    padding: 6px;
+    border-top: 1px solid rgba(68,68,68,0.08);
+    font-size: 1.8rem;
+    line-height: 1.9rem;
+    letter-spacing: -0.1px;
+    font-weight: 500;
+    text-align: center;
+    color: rgba(253,185,24,1);
+}
+
+.apoyos-container{
+    width: 70%;
+    height: 119px;
+    margin: 0 auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.apoyo{
+    width: 110px;
+    height: 119px;
+    
+}
+
+.background-apoyos{
+    width: 55px;
+    height: 55px;
+    margin: 0 auto;
+    background-color: rgba(68,68,68,0.17);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    line-height: 3.6rem;
+    font-weight: bold;
+    color: rgba(85,82,137,1);
+}
+
+.apoyos-text{
+    width: 100%;
+    margin-top: 5px;
+    font-size: 1.2rem;
+    line-height: 1.1rem;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(85,82,137,1);
+}
+
+/* Seccion de evolucion */
+
